@@ -1,0 +1,5 @@
+#Encendemos la sobreescritura del motor
+RewriteEngine on
+
+#Manejo del error 404
+ErrorDocument 404 http://localhost/BackEnd%20Services/Activity%2013.%20Load%20Images/views/Error404.html

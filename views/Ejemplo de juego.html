@@ -1,0 +1,62 @@
+
+<!-- saved from url=(0047)https://www.uv.es/jac/guia/jscript/palabras.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Ejemplo de juego</title>
+<script src="../public/JS/funciones.js"></script>
+</head>
+<body>
+<h2 style="color: white;">Juego del ahorcado</h2>
+<form name="visor">
+   <center>
+   <table width="547">
+   <tbody><tr>
+      <td colspan="3" width="150" align="center"><textarea name="displayHombre" cols="15" rows="6"></textarea>
+      </td><td colspan="3" width="150" align="center"><textarea name="displayLetras" cols="15" rows="6"></textarea>
+      </td><td width="200">
+   </td></tr><tr>
+      <td colspan="6" width="300" align="center"><input name="displayPalabra" size="42">
+      </td><td align="center">&nbsp;
+   </td></tr><tr>
+      <td align="center" width="50"><input type="button" name="botA" value=" A " onclick="Juega(this.form, &#39;a&#39;)">
+      </td><td align="center" width="50"><input type="button" name="botB" value=" B " onclick="Juega(this.form, &#39;b&#39;)">
+      </td><td align="center" width="50"><input type="button" name="botC" value=" C " onclick="Juega(this.form, &#39;c&#39;)">
+      </td><td align="center" width="50"><input type="button" name="botD" value=" D " onclick="Juega(this.form, &#39;d&#39;)">
+      </td><td align="center" width="50"><input type="button" name="botE" value=" E " onclick="Juega(this.form, &#39;e&#39;)">
+      </td><td align="center" width="50"><input type="button" name="botF" value=" F " onclick="Juega(this.form, &#39;f&#39;)">
+      </td><td>
+    </td></tr><tr>
+      <td align="center"><input type="button" name="botG" value=" G " onclick="Juega(this.form, &#39;g&#39;)">
+      </td><td align="center"><input type="button" name="botH" value=" H " onclick="Juega(this.form, &#39;h&#39;)">
+      </td><td align="center"><input type="button" name="botI" value=" I " onclick="Juega(this.form, &#39;i&#39;)">
+      </td><td align="center"><input type="button" name="botJ" value=" J " onclick="Juega(this.form, &#39;j&#39;)">
+      </td><td align="center"><input type="button" name="botK" value=" K " onclick="Juega(this.form, &#39;k&#39;)">
+      </td><td align="center"><input type="button" name="botL" value=" L " onclick="Juega(this.form, &#39;l&#39;)">
+      </td><td align="right" valign="middle" style="color: white;">Ganadas: <input type="text" name="ganadas" size="4" value="0">
+    </td></tr><tr>
+      <td align="center"><input type="button" name="botM" value=" M " onclick="Juega(this.form, &#39;m&#39;)">
+      </td><td align="center"><input type="button" name="botN" value=" N " onclick="Juega(this.form, &#39;n&#39;)">
+      </td><td align="center"><input type="button" name="botÑ" value=" Ñ " onclick="Juega(this.form, &#39;ñ&#39;)">
+      </td><td align="center"><input type="button" name="botO" value=" O " onclick="Juega(this.form, &#39;o&#39;)">
+      </td><td align="center"><input type="button" name="botP" value=" P " onclick="Juega(this.form, &#39;p&#39;)">
+      </td><td align="center"><input type="button" name="botQ" value=" Q " onclick="Juega(this.form, &#39;q&#39;)">
+      </td><td align="right" valign="middle" style="color: white;">Perdidas: <input type="text" name="perdidas" size="4" value="0">
+    </td></tr><tr>
+      <td align="center"><input type="button" name="botR" value=" R " onclick="Juega(this.form, &#39;r&#39;)">
+      </td><td align="center"><input type="button" name="botS" value=" S " onclick="Juega(this.form, &#39;s&#39;)">
+      </td><td align="center"><input type="button" name="botT" value=" T " onclick="Juega(this.form, &#39;t&#39;)">
+      </td><td align="center"><input type="button" name="botU" value=" U " onclick="Juega(this.form, &#39;u&#39;)">
+      </td><td align="center"><input type="button" name="botV" value=" V " onclick="Juega(this.form, &#39;v&#39;)">
+      </td><td align="center"><input type="button" name="botW" value=" W " onclick="Juega(this.form, &#39;w&#39;)">
+      </td><td>
+    </td></tr><tr>
+      <td align="center"><input type="button" name="botX" value=" X " onclick="Juega(this.form, &#39;x&#39;)">
+      </td><td align="center"><input type="button" name="botY" value=" Y " onclick="Juega(this.form, &#39;y&#39;)">
+      </td><td align="center"><input type="button" name="botZ" value=" Z " onclick="Juega(this.form, &#39;z&#39;)">
+      </td><td colspan="3" align="center"><input type="button" name="Inicia" value="  Juego nuevo   " onclick="IniciaJuego(this.form)">
+      </td><td align="center"><input type="button" value="Limpiar" name="B1" onclick="this.form.ganadas.value=&#39;0&#39;; this.form.perdidas.value=&#39;0&#39;">
+  </td></tr></tbody></table>
+  </center>
+</form>
+
+<hr>
+</body></html>
